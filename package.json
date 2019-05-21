@@ -1,0 +1,29 @@
+{
+  "name": "ndt7",
+  "version": "0.0.8",
+  "description": "",
+  "main": "index.js",
+  "repository":"",
+  "dependencies": {
+    "": "git://github.com/ungap/url-search-params",
+    "bluebird": "^3.5.4",
+    "cli-color": "^1.4.0",
+    "node-fetch": "v1.6.3",
+    "ws": "1.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+		"ndt7": "cli/cli.js"
+	},
+  "keywords": [
+    "ndt7",
+    "mlab",
+    "speedtest",
+    "bandwidth"
+  ],
+  "author": "domotz",
+  "license": "ISC"
+}
