@@ -3,9 +3,8 @@
   "version": "0.0.8",
   "description": "",
   "main": "index.js",
-  "repository":"",
   "dependencies": {
-    "@ungap/url-search-params": "git@github.com:ungap/url-search-params.git",
+    "@ungap/url-search-params": "ungap/url-search-params",
     "bluebird": "^3.5.4",
     "cli-color": "^1.4.0",
     "node-fetch": "v1.6.3",
