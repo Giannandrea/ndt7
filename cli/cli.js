@@ -30,14 +30,6 @@ function on_serverMeasurement(value) {
     output_string += "Min RTT: "+value["min_rtt"]+" ms\r\n";
     output_string += "Smoothed RTT: "+value["smoothed_rtt"]+" ms\r\n";
     output_string += "RTT variance: "+value["rtt_var"]+" ms\r\n";
-    process.stdout.write(clc.erase.screen);
-    process.stdout.write(clc.reset);
-    clc.move.top;
-    var banner = clc.xterm(61).bgXterm(232).bold;
-    console.log(banner(speed_test_banner));
-    var msg = clc.xterm(178).bgXterm(0);
-    console.log(msg(output_string));
-    clc.move.top;
 }
 
 function on_finish(value) {
