@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var Ndt7 = require('../index.js')
 var clc = require("cli-color");
 var speed = 0
