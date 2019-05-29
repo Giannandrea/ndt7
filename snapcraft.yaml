@@ -1,0 +1,27 @@
+name: node-mlab-ndt7
+version: "1.0.0"
+summary: ndt7 client using mlab server using nodejs
+description: measure download speed using mlab servers with ndt7 protocol.
+confinement: strict
+
+architectures:
+  - build-on: amd64
+    run-on: amd64
+  - build-on: i386
+    run-on: i386
+  - build-on: armhf
+    run-on: armhf
+
+apps:
+  node-mlab-ndt7:
+    command: bin/ndt7
+    plugs: [network, network-bind]
+
+parts:
+  node-mlab-ndt7:
+    plugin: nodejs
+    node-engine: 6.9.2
+    node-packages:
+      - git+https://github.com/Giannandrea/ndt7.git
+    build-packages:
+      - git
