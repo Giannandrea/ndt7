@@ -7,6 +7,7 @@
     "@ungap/url-search-params": "ungap/url-search-params",
     "bluebird": "^3.5.4",
     "cli-color": "^1.4.0",
+    "faye-websocket": "^0.11.1",
     "node-fetch": "v1.6.3",
     "ws": "1.1.5"
   },
@@ -15,8 +16,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-		"ndt7": "cli/cli.js"
-	},
+    "ndt7": "cli/cli.js"
+  },
   "keywords": [
     "ndt7",
     "mlab",
